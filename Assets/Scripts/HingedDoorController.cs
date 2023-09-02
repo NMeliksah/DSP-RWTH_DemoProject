@@ -17,10 +17,10 @@ public class HingedDoorController : MonoBehaviour
 
     public void SetDoorState(bool isOpen)
     {
-        // Negative velocity opens the door
+        // Positive velocity opens the door
         _hingeMotorVelocity = Mathf.Abs(_hingeMotorVelocity);
         
-        if (isOpen)
+        if (!isOpen)
             _hingeMotorVelocity *= -1f;
 
         JointMotor motor = new JointMotor();
