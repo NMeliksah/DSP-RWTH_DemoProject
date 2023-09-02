@@ -3,7 +3,152 @@ guid: 756103081809ba642af4a4aa4d32a2a1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt.001
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt.002
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt.003
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt.004
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt_
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: e88c66b2105339346873e1ceecde515e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.001
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut.001
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut.002
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut.003
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut.004
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut.005
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint.001
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint.002
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint.003
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint.004
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint.005
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint.006
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint.007
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint.008
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint_
+    second: {fileID: 2100000, guid: 2c4f8380fa2588441b77df34bd7661a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper
+    second: {fileID: 2100000, guid: 147d5d4722b00c9429d6ad589250dcb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screw
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screw.001
+    second: {fileID: 2100000, guid: d2c85a674a50251448784974199ef4ab, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
