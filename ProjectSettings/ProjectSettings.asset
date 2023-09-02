@@ -733,6 +733,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
+    Standalone: LETAI_TRUESHADOW
     Windows Store Apps: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
