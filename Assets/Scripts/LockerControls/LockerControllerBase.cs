@@ -19,7 +19,7 @@ public abstract class LockerControllerBase: MonoBehaviour
 
     public void CloseDoor()
     {
-        if (!DoorController.IsOpen)
+        if (DoorController.IsOpen)
         {
             DoorController.SwitchDoorState();
         }

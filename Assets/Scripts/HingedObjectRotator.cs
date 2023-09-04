@@ -15,6 +15,7 @@ public class HingedObjectRotator : MonoBehaviour
         spring.spring = 10000f; 
         spring.damper = 500f;    // Moderate damping to reduce oscillation and have almost constant motion
         hinge.spring = spring;
+        spring.targetPosition = 180f;
         hinge.useSpring = true;
     }
 
