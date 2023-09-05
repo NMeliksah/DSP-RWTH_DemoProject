@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: MeliksahCanoglu
   productName: DSP-RWTH_DemoProject
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -735,7 +735,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: USE_INPUT_SYSTEM_POSE_CONTROL
     Standalone: LETAI_TRUESHADOW;USE_INPUT_SYSTEM_POSE_CONTROL
-    Windows Store Apps: LETAI_TRUESHADOW;USE_INPUT_SYSTEM_POSE_CONTROL
+    Windows Store Apps: LETAI_TRUESHADOW;USE_INPUT_SYSTEM_POSE_CONTROL;TEST_HOLOLENS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -792,8 +792,8 @@ PlayerSettings:
   platformCapabilities:
     WindowsStoreApps:
       SpatialPerception: True
-      Microphone: True
       InternetClient: True
+      Microphone: True
   metroTargetDeviceFamilies: {}
   metroFTAName: 
   metroFTAFileTypes: []

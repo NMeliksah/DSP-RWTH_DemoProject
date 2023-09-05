@@ -13,7 +13,7 @@ public class LockerControlSwitcher : MonoBehaviour
         LockerController = gameObject.AddComponent<LockerControllerPC>();
 
 #elif (UNITY_WSA && !UNITY_EDITOR) || TEST_HOLOLENS
-        LockerController = gameObject.AddComponent<LockerControllerHoloLens>();
+        LockerController = gameObject.AddComponent<LockerControllerHololens>();
 
 #endif
 

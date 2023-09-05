@@ -1,26 +1,26 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using Microsoft.MixedReality.Toolkit.Input;
 using UnityEngine;
 
-public class LockerControllerHoloLens :  LockerControllerBase
+public class LockerControllerHololens : LockerControllerBase, IMixedRealityPointerHandler
 {
-    // TODO: Implement after MRTK Import. It will look something like this:
-    
-    /**
-     *
-     
-using Microsoft.MixedReality.Toolkit.Input;
- 
-    public void OnPointerUp(MixedRealityPointerEventData eventData)
+    public void OnPointerDown(MixedRealityPointerEventData eventData)
     {
-        if (eventData.MixedRealityInputAction.Description == "Pinch")
-        {
-            SwitchDoorState();
-        }
+        // Do nothing
     }
 
-     * 
-     */
-    
+    public void OnPointerDragged(MixedRealityPointerEventData eventData)
+    {
+        // Do nothing
+    }
+
+    public void OnPointerUp(MixedRealityPointerEventData eventData)
+    {
+        // Do nothing
+    }
+
+    public void OnPointerClicked(MixedRealityPointerEventData eventData)
+    {
+        SwitchDoorState();
+        eventData.Use(); // Mark the event as used so it doesn't propagate to other handlers.
+    }
 }

@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6657386614643591630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604680980047833, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 811369612357795171, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      propertyPath: m_Name
+      value: LockerModelHololens
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1696599575373943519, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7682401442975334667}
+    - targetCorrespondingSourceObject: {fileID: 1696599575373943519, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2458693338804326793}
+  m_SourcePrefab: {fileID: 100100000, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+--- !u!1 &5469693806833802001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1696599575373943519, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+  m_PrefabInstance: {fileID: 6657386614643591630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7682401442975334667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5469693806833802001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c748f3768ab714a8449b60fb9edc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventsToReceive: 1
+  debounceThreshold: 0.01
+  localForward: {x: -0, y: -0, z: -1}
+  localUp: {x: 0, y: 1, z: 0}
+  localCenter: {x: -0.0006031037, y: 0.01652725, z: -0.010788083}
+  bounds: {x: 0.0010634122, y: 0.0035960695}
+  touchableCollider: {fileID: 5889471322485911810}
+--- !u!114 &2458693338804326793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5469693806833802001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c748f3768ab714a8449b60fb9edc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventsToReceive: 0
+  debounceThreshold: 0.01
+  localForward: {x: -0, y: -0, z: -1}
+  localUp: {x: 0, y: 1, z: 0}
+  localCenter: {x: -0.0006031037, y: 0.01652725, z: -0.010788083}
+  bounds: {x: 0.0010634122, y: 0.0035960695}
+  touchableCollider: {fileID: 5889471322485911810}
+--- !u!65 &5889471322485911810 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 997638767011100876, guid: 8e292ecee582386428a297e9ade017df, type: 3}
+  m_PrefabInstance: {fileID: 6657386614643591630}
+  m_PrefabAsset: {fileID: 0}
